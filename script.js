@@ -3,7 +3,6 @@ function Clock(clockNode) {
     this.clockNode = clockNode;
     clockNode.addEventListener('click', () => {
         this.formatFull = !this.formatFull;
-        this.render();
     });
 }
 
